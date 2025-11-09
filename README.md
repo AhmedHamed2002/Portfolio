@@ -24,7 +24,3 @@ Ahmed Hamed
 Frontend Developer specializing in Angular & Next js 
 🎯 Passionate about crafting interactive, user-friendly web applications.
 📘 Currently studying Engineering at Al-Azhar University.
-
-
-### 💡 Fun Fact
-I enjoy exploring **new technologies**, contributing to **open-source**, and building projects that solve real-world problems. 🚀
