@@ -1,0 +1,17 @@
+import { initMobileNav, initGoToTopButton, initSmoothScroll, initActiveNavOnScroll, initScrollEffects, initViewMoreProjects, initIntersectionAnimations, initFloatingWidgetVisibility } from './components.js';
+import { includePartials } from './utils.js';
+
+// Initialize on DOM ready
+document.addEventListener('DOMContentLoaded', async () => {
+    // Load partials first, then init behavior
+    await includePartials();
+    initMobileNav();
+    initSmoothScroll();
+    initActiveNavOnScroll();
+    initScrollEffects();
+    initViewMoreProjects();
+    initIntersectionAnimations();
+    initFloatingWidgetVisibility();
+    initGoToTopButton();
+});
+
